@@ -3,8 +3,6 @@ import firebase_admin #don't forget to install :)
 from firebase_admin import credentials
 from firebase_admin import auth
 
-firebase.init()
-
 # The file that links to firebase and retrieves the user info
 cred = credentials.Certificate("petorphine-0e63b8bb9433.json")
 firebase_admin.initialize_app(cred)
