@@ -10,4 +10,4 @@ When launching _petorphine.py_ via streamlit platform, users can navigate betwee
 - The Profilepage
 - The Loginpage
 
-Here is the link to the launched streamlit app: 
+Here is the link to the launched streamlit app: [Petorphine](https://petorphine.streamlit.app/)
