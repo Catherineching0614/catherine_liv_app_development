@@ -1,11 +1,11 @@
 import streamlit as st
-import firebase_admin #don't forget to install :)
+#import firebase_admin #don't forget to install :)
 from firebase_admin import credentials
 from firebase_admin import auth
 
 # The file that links to firebase and retrieves the user info
 cred = credentials.Certificate("petorphine-0e63b8bb9433.json")
-firebase_admin.initialize_app(cred)
+#firebase_admin.initialize_app(cred)
 
 # The code to check the user's login info or if they still need to sign up
 def login():
